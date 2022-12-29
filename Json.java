@@ -16,8 +16,7 @@ public class Json extends Writer {
             writer.flush();
             writer.close();
         } catch (IOException ex) {
-            Logger.getLogger(JsonSimpleExample.class.getName())
-                    .log(Level.SEVERE, null, ex);
+           
         }
         
     }
